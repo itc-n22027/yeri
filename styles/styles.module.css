@@ -1,0 +1,28 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.cell {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  /* width: 33%; */
+  width: 100px;
+  /* max-width: 100px; */
+  height: 100px;
+  border: 1px solid ;
+  cursor: pointer;
+  
+}
+
+.status {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
